@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  QRCodeReader
+//  QRReaderDemo
 //
-//  Created by Angelina Choi on 2015-01-08.
-//  Copyright (c) 2015 Angelina Choi. All rights reserved.
+//  Created by Simon Ng on 23/11/14.
+//  Copyright (c) 2014 AppCoda. All rights reserved.
 //
 
 import UIKit

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="821"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Panorama. All rights reserved, kind of." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="790" width="448" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="448" id="gPf-cp-14u"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Panorama Logo CP.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3yq-bX-uyl">
+                    <rect key="frame" x="87" y="193" width="306" height="436"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="QR-ThemGS1" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
+                    <rect key="frame" x="20" y="33" width="441" height="43"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                    <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact">
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                    </variation>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Icon-40 2x.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ups-r5-iBK">
+                    <rect key="frame" x="8" y="8" width="124" height="116"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="210" id="KsZ-UD-4tC"/>
+                        <constraint firstAttribute="height" constant="116" id="N6d-L0-bZL">
+                            <variation key="heightClass=compact" constant="101"/>
+                        </constraint>
+                        <constraint firstAttribute="width" constant="124" id="tpO-Mo-ijI">
+                            <variation key="heightClass=compact" constant="306"/>
+                        </constraint>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="KsZ-UD-4tC"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=compact">
+                        <mask key="constraints">
+                            <exclude reference="N6d-L0-bZL"/>
+                            <exclude reference="tpO-Mo-ijI"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="KsZ-UD-4tC"/>
+                            <exclude reference="N6d-L0-bZL"/>
+                            <exclude reference="tpO-Mo-ijI"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="kId-c2-rCX" secondAttribute="trailing" constant="19" id="3V0-T2-RQf"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="10" id="50d-C6-dit"/>
+                <constraint firstItem="Ups-r5-iBK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" id="6Hn-ce-RoO"/>
+                <constraint firstItem="3yq-bX-uyl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="87" id="6n1-Fh-4vG"/>
+                <constraint firstItem="Ups-r5-iBK" firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="7yN-Tu-oSF"/>
+                <constraint firstAttribute="trailing" secondItem="8ie-xW-0ye" secondAttribute="trailing" constant="12" id="GvY-9a-a6K"/>
+                <constraint firstItem="3yq-bX-uyl" firstAttribute="top" secondItem="Ups-r5-iBK" secondAttribute="bottom" constant="3" id="HrV-pf-1Hm"/>
+                <constraint firstItem="Ups-r5-iBK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="KPH-LP-1kn">
+                    <variation key="heightClass=compact" constant="79"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="3yq-bX-uyl" secondAttribute="centerX" id="QCz-du-EP6"/>
+                <constraint firstAttribute="centerY" secondItem="3yq-bX-uyl" secondAttribute="centerY" id="StZ-Yl-5fl"/>
+                <constraint firstItem="3yq-bX-uyl" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="117" id="Yya-yz-utq">
+                    <variation key="widthClass=compact" constant="-30"/>
+                </constraint>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="f2w-22-xcb"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="hU6-1b-O2G"/>
+                <constraint firstItem="Ups-r5-iBK" firstAttribute="trailing" secondItem="3yq-bX-uyl" secondAttribute="trailing" id="lf0-gD-uGM"/>
+                <constraint firstItem="Ups-r5-iBK" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="8" symbolic="YES" id="o49-EK-aUn"/>
+                <constraint firstItem="Ups-r5-iBK" firstAttribute="leading" secondItem="3yq-bX-uyl" secondAttribute="leading" id="w4b-p8-voV"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="xg8-Nx-NT0"/>
+                <constraint firstItem="3yq-bX-uyl" firstAttribute="top" secondItem="Ups-r5-iBK" secondAttribute="bottom" constant="8" symbolic="YES" id="zEC-jG-TG5"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="6Hn-ce-RoO"/>
+                    <exclude reference="7yN-Tu-oSF"/>
+                    <exclude reference="lf0-gD-uGM"/>
+                    <exclude reference="o49-EK-aUn"/>
+                    <exclude reference="w4b-p8-voV"/>
+                    <exclude reference="HrV-pf-1Hm"/>
+                    <exclude reference="zEC-jG-TG5"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact">
+                <mask key="constraints">
+                    <exclude reference="KPH-LP-1kn"/>
+                    <include reference="lf0-gD-uGM"/>
+                    <include reference="o49-EK-aUn"/>
+                    <include reference="w4b-p8-voV"/>
+                    <include reference="zEC-jG-TG5"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="constraints">
+                    <include reference="6Hn-ce-RoO"/>
+                    <include reference="7yN-Tu-oSF"/>
+                    <exclude reference="KPH-LP-1kn"/>
+                    <include reference="HrV-pf-1Hm"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="112" y="-777.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Icon-40 2x.png" width="80" height="80"/>
+        <image name="Panorama Logo CP.jpg" width="536" height="436"/>
+    </resources>
+</document>
